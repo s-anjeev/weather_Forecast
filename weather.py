@@ -37,7 +37,8 @@ def current_weather(API,API_KEY):
 
 print_title("Wheather")
 API = "https://api.weatherapi.com/v1/current.json?key="
-API_KEY = "ec6dc90ed8004f3da5150516242101"
+# api key
+API_KEY = ""
 current_weather(API,API_KEY)
 
 
